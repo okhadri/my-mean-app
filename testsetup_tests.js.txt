@@ -1,0 +1,3 @@
+const assert = require('assert');
+const mongoClient = require('mongodb').MongoClient;
+const dbConfig = require('./dbConfig'); // Assuming you have a separate file for database configurations
